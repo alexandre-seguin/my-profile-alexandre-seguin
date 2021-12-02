@@ -1,0 +1,157 @@
+h1 {
+  color: rgb(65, 131, 215);
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(75, 119, 190);
+  font-weight: bold;
+  text-decoration: wavy underline;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("images/neige.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(238, 236, 243, 0.2);
+  color: rgb(30, 30, 30);
+  font-family: Times, serif;
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+a {
+  color: rgb(60, 60, 60);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: skyblue;
+  text-decoration: none;
+}
+
+ul{
+  display : inline-block;
+  margin :auto;
+  text-align:left;
+}
+
+ol {
+  display : inline-block;
+  margin :auto;
+  text-align:left;
+}
+
+/* Custom designs class and id */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+#div1 {
+  margin: 80px 40px 40px 40px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 8px 20px rgb(65 131 215 / 25%);
+  background-color: white;
+}
+
+.div-design {
+  margin-top: 35px;
+  margin-right: 150px;
+  margin-bottom: 35px;
+  margin-left: 150px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgb(75, 119, 190);
+  border-right: 1px solid rgb(75, 119, 190);
+  border-bottom: 1px solid rgb(75, 119, 190);
+  border-left: 1px solid rgb(75, 119, 190);
+  text-align: center;
+  background-color: white;
+}
+
+#profile {
+  width: 200px;
+  border-radius: 30%;
+  display: block;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  box-shadow: 0px 10px 10px rgba(65, 131, 215,0.9);
+  }
+
+#btn-blue {
+  background-color: rgb(228, 241, 254);
+  color: black;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+#btn-blue:hover {
+  color: white;
+  text-decoration: none;
+  background-color: royalblue;
+}
+
+#lecture {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#coding {
+  width: 300px;
+  height: 175px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#competences {
+  color: rgb(75, 119, 190);
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-decoration: none;
+ }
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: rgb(180, 180, 180);
+}
